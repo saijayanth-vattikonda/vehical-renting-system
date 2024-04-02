@@ -1,0 +1,19 @@
+[
+    {
+      "modelNumber": "#1.CHIRON",
+      "carDescription": "Milage:-8km/l,Top notch model,JBL music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "59999.00/-"
+    },
+    {
+      "modelNumber": "#2.DIVO",
+      
+      "carDescription": "Milage:-7km/l,Modified model,Dolby music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "52999.00/-"
+    },
+    {
+      "modelNumber": "#3.VEYRON",
+      
+      "carDescription": "Milage:-9.25km/l,Top notch model,Road Assist,Dolby music and Jbl music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "49999.00/-"
+    }
+]

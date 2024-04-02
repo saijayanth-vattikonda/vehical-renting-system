@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Updated CSS styles */
+
+        /* Header styles */
+        .header {
+            background-color: #234e6d; /* Updated background color */
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .header .icons a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        }
+
+        .header .icons a:hover {
+            background-color: #fff;
+            color: #234e6d; /* Updated hover color */
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: #234e6d; /* Updated background color */
+            color: #fff;
+            padding: 20px;
+            margin-top: 50px; /* Added margin to separate footer from content */
+        }
+
+        /* Main container styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Section heading styles */
+        .heading {
+            font-size: 36px;
+            color: #0a5675;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Box container styles */
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* Individual box styles */
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            flex: 0 0 calc(33.33% - 40px);
+        }
+
+        .box img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .box h3 {
+            font-size: 24px;
+            color: #0a5675;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .box p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .box a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0a5675;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+
+        .box a:hover {
+            background-color: #06445e;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-car"></i> Vehicle Rental </a>
+        <div class="icons">
+            <a href="loginpage.html">LOGIN</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="features" id="features">
+            <h1 class="heading">Our Features</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="payment.jpeg" alt="">
+                    <h3>Easy Booking and Payment</h3>
+                    <p>Confirm and finalize a reservation with payment details and rental terms. Choose payment method (e.g. credit card, PayPal, etc.)</p>
+                    <a href="loginpage.html" class="btn">Know more</a>
+                </div>
+                <div class="box">
+                    <img src="pickdrop.jpeg" alt="">
+                    <h3>Pickup and Drop off</h3>
+                    <p>View pickup and drop-off locations and hours. Check in and check out the vehicle with a rental agent or nearby location.</p>
+                    <a href="loginpage.html" class="btn">Know more</a>
+                </div>
+                <div class="box">
+                    <img src="custcare.png" alt="">
+                    <h3>Customer Service</h3>
+                    <p>24/7 Assistance. Get help via phone, email, or chat. Get help with booking or technical issues.</p>
+                    <a href="loginpage.html" class="btn">Know more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h1 class="heading">Reviews</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="ironman.jpeg" alt="">
+                    <p>Very good car rental service provider company, polite drivers, very good services with comfortable cars and good customer service.</p>
+                    <h3>Iron Man</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="spider.jpeg" alt="">
+                    <p>Nice trip, Enjoyed service and good driver, comfortable car. Will refer again and again to friend, overall good, keep it up.</p>
+                    <h3>Spider Man</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="hulk.jpeg" alt="">
+                    <p>Great price, service and very convenient. The car was clean and worked fine. It was a great car rental experience.</p>
+                    <h3>Hulk</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>Vehicle Rental <i class="fas fa-car"></i></h3>
+                <p>Vehicle Rental is a company that rents automobiles for short periods of time to the public, generally ranging from a few hours to a few weeks.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                    <a href="https://in.linkedin.com/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <p><i class="fas fa-phone"></i> +91-xxxxxxxxxx</p>
+                <p><i class="fas fa-envelope"></i> saijayanth@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Vattikonda Sai Jayanth</p>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for the latest updates</p>
+                <input type="email" class="email" placeholder="Your email">
+                <button onclick="document.getElementById('id01').style.display='block'">Subscribe</button>
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <form class="modal-content" action="">
+                        <div class="container">
+                            <h1 align="center">Thank you for subscribing.🙏🙏🙏</h1>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>

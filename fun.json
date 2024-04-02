@@ -1,0 +1,14 @@
+[
+    {
+      "modelNumber": "#1.AUDI A4",
+      "carDescription": "Milage:-10.25km/l,Top notch model,Road assit.,JBL music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "9999.00/-"
+    },
+    {
+      "modelNumber": "#2.AUDI S5",
+      
+      "carDescription": "Milage:-9km/l,Premium model,Road assit.,Dolby music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "10999.00/-"
+    }
+   
+]
