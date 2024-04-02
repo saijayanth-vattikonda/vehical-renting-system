@@ -1,0 +1,93 @@
+*{
+margin:0;
+padding:0;
+
+}
+body{
+background-image: url(faaa.jpg);
+background-repeat: no-repeat;
+background-size: 100% ;
+}
+h1{
+background-image: url(unnamed.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100px;
+color:white;
+padding: 20px;
+text-align: center;
+
+
+border-bottom: 30px solid white ;
+}
+.nav{
+float:center;
+list-style-type:none;
+display: -webkit-inline-flex;
+
+}
+.nav li{
+
+margin-top:20px;
+margin-left:50px;
+text-align:center;
+height: 50px;
+line-height: 55px;
+background-image: url(unnamed.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100px;
+width: 235px;
+border-top: 5px solid yellow ;
+border-bottom: 5px solid yellow ;
+border-left: 5px solid yellow ;
+border-right: 5px solid yellow ;
+
+}
+.nav li a{
+color: white;
+font-size: 18px;
+font-family: casteller;
+text-decoration: none;
+
+}
+.sub-menu{
+display: none;
+position: absolute;
+list-style-type: none;
+margin-bottom: 100px;
+margin-left: -55px;
+}
+.nav li:hover .sub-menu{
+display: block;
+
+}
+.sub-menu-one{
+display: none;
+list-style-type: none;
+margin-left:200px;
+margin-top: -50px;
+border-bottom: 2px solid white ;
+}
+
+.sub-menu-two{
+    display: none;
+    list-style-type: none;
+    margin-left:-315px;
+    margin-top: -50px;
+    border-bottom: 2px solid white ;
+    }
+
+.sub-menu li:hover .sub-menu-one{
+display: block;
+}
+
+.sub-menu li:hover .sub-menu-two{
+    display: block;
+    }
+
+.nav input[type=text]{
+padding: 12px;
+margin-top: 20px;
+margin-left:20px;
+margin-top: -10px;
+
+}

@@ -1,0 +1,19 @@
+[
+    {
+      "modelNumber": "#1.Octavia",
+      "carDescription": "Milage:-16km/l,Top notch model,GPS,JBL music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "3625.00/-"
+    },
+    {
+      "modelNumber": "#2.Kodiaq",
+      
+      "carDescription": "Milage:-10.25km/l,modified model,Road assit.,Dolby music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "4999.00/-"
+    },
+    {
+      "modelNumber": "#3.Superb",
+      
+      "carDescription": "Milage:-12.25km/l,Base model,GPS,Dolby music\nHandling and Installation of Accessories.",
+      "rentChargesPerDay": "4999.00/-"
+    }
+]
